@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F782FFD1E0C0C2200A1E857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F782FFC1E0C0C2200A1E857 /* AppDelegate.swift */; };
+		9F782FFF1E0C0C2200A1E857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F782FFE1E0C0C2200A1E857 /* ViewController.swift */; };
+		9F7830021E0C0C2200A1E857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7830001E0C0C2200A1E857 /* Main.storyboard */; };
+		9F7830051E0C0C2200A1E857 /* GPS2_0_City.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F7830031E0C0C2200A1E857 /* GPS2_0_City.xcdatamodeld */; };
+		9F7830071E0C0C2200A1E857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7830061E0C0C2200A1E857 /* Assets.xcassets */; };
+		9F78300A1E0C0C2200A1E857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7830081E0C0C2200A1E857 /* LaunchScreen.storyboard */; };
+		9F7830151E0C0C2200A1E857 /* GPS2_0_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7830141E0C0C2200A1E857 /* GPS2_0_CityTests.swift */; };
+		9F7830201E0C0C2200A1E857 /* GPS2_0_CityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F78301F1E0C0C2200A1E857 /* GPS2_0_CityUITests.swift */; };
+		9FAD0B351E17A3AF009C7F07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAD0B341E17A3AF009C7F07 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F7830111E0C0C2200A1E857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F782FF11E0C0C2200A1E857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F782FF81E0C0C2200A1E857;
+			remoteInfo = "GPS2.0-City";
+		};
+		9F78301C1E0C0C2200A1E857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F782FF11E0C0C2200A1E857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F782FF81E0C0C2200A1E857;
+			remoteInfo = "GPS2.0-City";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F782FF91E0C0C2200A1E857 /* GPS2.0-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS2.0-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F782FFC1E0C0C2200A1E857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F782FFE1E0C0C2200A1E857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F7830011E0C0C2200A1E857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F7830041E0C0C2200A1E857 /* GPS2_0_City.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPS2_0_City.xcdatamodel; sourceTree = "<group>"; };
+		9F7830061E0C0C2200A1E857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F7830091E0C0C2200A1E857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F78300B1E0C0C2200A1E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7830101E0C0C2200A1E857 /* GPS2.0-CityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS2.0-CityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7830141E0C0C2200A1E857 /* GPS2_0_CityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS2_0_CityTests.swift; sourceTree = "<group>"; };
+		9F7830161E0C0C2200A1E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F78301B1E0C0C2200A1E857 /* GPS2.0-CityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS2.0-CityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F78301F1E0C0C2200A1E857 /* GPS2_0_CityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS2_0_CityUITests.swift; sourceTree = "<group>"; };
+		9F7830211E0C0C2200A1E857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAD0B341E17A3AF009C7F07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F782FF61E0C0C2200A1E857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD0B351E17A3AF009C7F07 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78300D1E0C0C2200A1E857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7830181E0C0C2200A1E857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F782FF01E0C0C2200A1E857 = {
+			isa = PBXGroup;
+			children = (
+				9F782FFB1E0C0C2200A1E857 /* GPS2.0-City */,
+				9F7830131E0C0C2200A1E857 /* GPS2.0-CityTests */,
+				9F78301E1E0C0C2200A1E857 /* GPS2.0-CityUITests */,
+				9F782FFA1E0C0C2200A1E857 /* Products */,
+				9FAD0B331E17A3AF009C7F07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F782FFA1E0C0C2200A1E857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F782FF91E0C0C2200A1E857 /* GPS2.0-City.app */,
+				9F7830101E0C0C2200A1E857 /* GPS2.0-CityTests.xctest */,
+				9F78301B1E0C0C2200A1E857 /* GPS2.0-CityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F782FFB1E0C0C2200A1E857 /* GPS2.0-City */ = {
+			isa = PBXGroup;
+			children = (
+				9F782FFC1E0C0C2200A1E857 /* AppDelegate.swift */,
+				9F782FFE1E0C0C2200A1E857 /* ViewController.swift */,
+				9F7830001E0C0C2200A1E857 /* Main.storyboard */,
+				9F7830061E0C0C2200A1E857 /* Assets.xcassets */,
+				9F7830081E0C0C2200A1E857 /* LaunchScreen.storyboard */,
+				9F78300B1E0C0C2200A1E857 /* Info.plist */,
+				9F7830031E0C0C2200A1E857 /* GPS2_0_City.xcdatamodeld */,
+			);
+			path = "GPS2.0-City";
+			sourceTree = "<group>";
+		};
+		9F7830131E0C0C2200A1E857 /* GPS2.0-CityTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F7830141E0C0C2200A1E857 /* GPS2_0_CityTests.swift */,
+				9F7830161E0C0C2200A1E857 /* Info.plist */,
+			);
+			path = "GPS2.0-CityTests";
+			sourceTree = "<group>";
+		};
+		9F78301E1E0C0C2200A1E857 /* GPS2.0-CityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F78301F1E0C0C2200A1E857 /* GPS2_0_CityUITests.swift */,
+				9F7830211E0C0C2200A1E857 /* Info.plist */,
+			);
+			path = "GPS2.0-CityUITests";
+			sourceTree = "<group>";
+		};
+		9FAD0B331E17A3AF009C7F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FAD0B341E17A3AF009C7F07 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F782FF81E0C0C2200A1E857 /* GPS2.0-City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7830241E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-City" */;
+			buildPhases = (
+				9F782FF51E0C0C2200A1E857 /* Sources */,
+				9F782FF61E0C0C2200A1E857 /* Frameworks */,
+				9F782FF71E0C0C2200A1E857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPS2.0-City";
+			productName = "GPS2.0-City";
+			productReference = 9F782FF91E0C0C2200A1E857 /* GPS2.0-City.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F78300F1E0C0C2200A1E857 /* GPS2.0-CityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F7830271E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-CityTests" */;
+			buildPhases = (
+				9F78300C1E0C0C2200A1E857 /* Sources */,
+				9F78300D1E0C0C2200A1E857 /* Frameworks */,
+				9F78300E1E0C0C2200A1E857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F7830121E0C0C2200A1E857 /* PBXTargetDependency */,
+			);
+			name = "GPS2.0-CityTests";
+			productName = "GPS2.0-CityTests";
+			productReference = 9F7830101E0C0C2200A1E857 /* GPS2.0-CityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F78301A1E0C0C2200A1E857 /* GPS2.0-CityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F78302A1E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-CityUITests" */;
+			buildPhases = (
+				9F7830171E0C0C2200A1E857 /* Sources */,
+				9F7830181E0C0C2200A1E857 /* Frameworks */,
+				9F7830191E0C0C2200A1E857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F78301D1E0C0C2200A1E857 /* PBXTargetDependency */,
+			);
+			name = "GPS2.0-CityUITests";
+			productName = "GPS2.0-CityUITests";
+			productReference = 9F78301B1E0C0C2200A1E857 /* GPS2.0-CityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F782FF11E0C0C2200A1E857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ashwath;
+				TargetAttributes = {
+					9F782FF81E0C0C2200A1E857 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 998HC2Y5X2;
+						ProvisioningStyle = Automatic;
+					};
+					9F78300F1E0C0C2200A1E857 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 998HC2Y5X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F782FF81E0C0C2200A1E857;
+					};
+					9F78301A1E0C0C2200A1E857 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 998HC2Y5X2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F782FF81E0C0C2200A1E857;
+					};
+				};
+			};
+			buildConfigurationList = 9F782FF41E0C0C2200A1E857 /* Build configuration list for PBXProject "GPS2.0-City" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F782FF01E0C0C2200A1E857;
+			productRefGroup = 9F782FFA1E0C0C2200A1E857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F782FF81E0C0C2200A1E857 /* GPS2.0-City */,
+				9F78300F1E0C0C2200A1E857 /* GPS2.0-CityTests */,
+				9F78301A1E0C0C2200A1E857 /* GPS2.0-CityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F782FF71E0C0C2200A1E857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F78300A1E0C0C2200A1E857 /* LaunchScreen.storyboard in Resources */,
+				9F7830071E0C0C2200A1E857 /* Assets.xcassets in Resources */,
+				9F7830021E0C0C2200A1E857 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78300E1E0C0C2200A1E857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7830191E0C0C2200A1E857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F782FF51E0C0C2200A1E857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F782FFF1E0C0C2200A1E857 /* ViewController.swift in Sources */,
+				9F7830051E0C0C2200A1E857 /* GPS2_0_City.xcdatamodeld in Sources */,
+				9F782FFD1E0C0C2200A1E857 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78300C1E0C0C2200A1E857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7830151E0C0C2200A1E857 /* GPS2_0_CityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7830171E0C0C2200A1E857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7830201E0C0C2200A1E857 /* GPS2_0_CityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F7830121E0C0C2200A1E857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F782FF81E0C0C2200A1E857 /* GPS2.0-City */;
+			targetProxy = 9F7830111E0C0C2200A1E857 /* PBXContainerItemProxy */;
+		};
+		9F78301D1E0C0C2200A1E857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F782FF81E0C0C2200A1E857 /* GPS2.0-City */;
+			targetProxy = 9F78301C1E0C0C2200A1E857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F7830001E0C0C2200A1E857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F7830011E0C0C2200A1E857 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F7830081E0C0C2200A1E857 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F7830091E0C0C2200A1E857 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F7830221E0C0C2200A1E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F7830231E0C0C2200A1E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F7830251E0C0C2200A1E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F7830261E0C0C2200A1E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F7830281E0C0C2200A1E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-CityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-CityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS2.0-City.app/GPS2.0-City";
+			};
+			name = Debug;
+		};
+		9F7830291E0C0C2200A1E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-CityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-CityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS2.0-City.app/GPS2.0-City";
+			};
+			name = Release;
+		};
+		9F78302B1E0C0C2200A1E857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-CityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-CityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GPS2.0-City";
+			};
+			name = Debug;
+		};
+		9F78302C1E0C0C2200A1E857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 998HC2Y5X2;
+				INFOPLIST_FILE = "GPS2.0-CityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashwath.GPS2-0-CityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GPS2.0-City";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F782FF41E0C0C2200A1E857 /* Build configuration list for PBXProject "GPS2.0-City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7830221E0C0C2200A1E857 /* Debug */,
+				9F7830231E0C0C2200A1E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7830241E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7830251E0C0C2200A1E857 /* Debug */,
+				9F7830261E0C0C2200A1E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F7830271E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-CityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7830281E0C0C2200A1E857 /* Debug */,
+				9F7830291E0C0C2200A1E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F78302A1E0C0C2200A1E857 /* Build configuration list for PBXNativeTarget "GPS2.0-CityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F78302B1E0C0C2200A1E857 /* Debug */,
+				9F78302C1E0C0C2200A1E857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F7830031E0C0C2200A1E857 /* GPS2_0_City.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F7830041E0C0C2200A1E857 /* GPS2_0_City.xcdatamodel */,
+			);
+			currentVersion = 9F7830041E0C0C2200A1E857 /* GPS2_0_City.xcdatamodel */;
+			path = GPS2_0_City.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F782FF11E0C0C2200A1E857 /* Project object */;
+}
